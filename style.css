@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    font-family: sans-serif;
+    margin: auto;
+    width: 30%;
+}
+
+label {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
