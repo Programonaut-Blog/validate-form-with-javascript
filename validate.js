@@ -4,7 +4,7 @@ function validateForm() {
 	valid = validateBirthdate();
     // // alert(valid ? "Over 18" : "Under 18");
 	// check favorite number
-	valid = validateFavoriteNumber();
+	valid = valid ? validateFavoriteNumber() : false;
     // // alert(valid ? "In range" : "Out of range");
 	return valid
 }
